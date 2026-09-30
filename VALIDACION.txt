@@ -1,0 +1,15 @@
+Pruebas realizadas:
+- Sintaxis Node del servidor y scripts.
+- Autenticación requerida para pedidos administrativos.
+- Correo de administrador permitido y cookie HttpOnly.
+- Rechazo de cambios desde otro origen.
+- Migración SQL ejecutada en PostgreSQL embebido (PGlite).
+- Precios calculados en servidor/SQL.
+- Reserva repetida rechazada sin crear un segundo pedido.
+- Pedido pagado no puede cancelarse como pendiente.
+- Cancelación libera números.
+- Rol anónimo sin acceso a datos ni funciones de reserva.
+
+Pendiente: verificación visual en navegador (el navegador local no estaba disponible),
+prueba en Supabase real, despliegue y cobro de prueba en Mercado Pago.
+No se modificó el sitio publicado.
